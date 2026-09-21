@@ -1,26 +1,26 @@
 //Calendário de estudos mensal (DEZEMBRO & JANEIRO)//
 const mes = "dezembro"
 
-let dezembro_1=
-let dezembro_2=
-let dezembro_3=
-let dezembro_4=
-let dezembro_5=
-let dezembro_6=
-let dezembro_7=
-let dezembro_8=
-let dezembro_9=
-let dezembro_10=
-let dezembro_11=
-let dezembro_12=
-let dezembro_
-let dezembro_
-let dezembro_
-let dezembro_
-let dezembro_
-let dezembro_
-let dezembro_
-let dezembro_
+let dezembro_1=true
+let dezembro_2=true
+let dezembro_3=true
+let dezembro_4=true
+let dezembro_5=true
+let dezembro_6=true
+let dezembro_7=true
+let dezembro_8=true
+let dezembro_9=true
+let dezembro_10=true
+let dezembro_11=true
+let dezembro_12=true
+let dezembro_13=true
+let dezembro_14=true
+let dezembro_15=true
+let dezembro_16=true
+let dezembro_17=true
+let dezembro_18=true
+let dezembro_19=true
+let dezembro_20=true
 
 
 //=========================================================================================================//
