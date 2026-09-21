@@ -1,6 +1,27 @@
 //Calendário de estudos mensal (DEZEMBRO & JANEIRO)//
-const dezembro_1= 2
-const janeiro= 1
+const mes = "dezembro"
+
+let dezembro_1=
+let dezembro_2=
+let dezembro_3=
+let dezembro_4=
+let dezembro_5=
+let dezembro_6=
+let dezembro_7=
+let dezembro_8=
+let dezembro_9=
+let dezembro_10=
+let dezembro_11=
+let dezembro_12=
+let dezembro_
+let dezembro_
+let dezembro_
+let dezembro_
+let dezembro_
+let dezembro_
+let dezembro_
+let dezembro_
+
 
 //=========================================================================================================//
 
