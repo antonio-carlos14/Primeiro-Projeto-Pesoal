@@ -25,28 +25,28 @@ let diaAtual = 15
 
 // DIA 1
 if (diaAtual === 1 && dezembro_1 === true) {
-    console.log("Estudo sobre numeros reais, destina-se 4 horas")
+    console.log("Estudo sobre números reais, destina-se 4 horas")
 } else if (diaAtual === 1 && dezembro_1 === false) {
     console.log("Atividade não realizada")
 }
 
 // DIA 2
 if (diaAtual === 2 && dezembro_2 === true) {
-    console.log("Revisão sobre numeros reais, destina-se 4 horas")
+    console.log("Revisão sobre números reais, destina-se 4 horas")
 } else if (diaAtual === 2 && dezembro_2 === false) {
     console.log("Atividade não realizada")
 }
 
 // DIA 3
 if (diaAtual === 3 && dezembro_3 === true) {
-    console.log("Estudo sobre potênciação e radiciação, destina-se 4 horas")
+    console.log("Estudo sobre potenciação e radiciação, destina-se 4 horas")
 } else if (diaAtual === 3 && dezembro_3 === false) {
     console.log("Atividade não realizada")
 }
 
 // DIA 4
 if (diaAtual === 4 && dezembro_4 === true) {
-    console.log("Revisão sobre potênciação e radiciação, destina-se 2 horas")
+    console.log("Revisão sobre potenciação e radiciação, destina-se 2 horas")
 } else if (diaAtual === 4 && dezembro_4 === false) {
     console.log("Atividade não realizada")
 }
@@ -134,56 +134,56 @@ if (diaAtual === 15 && dezembro_15 === true) {
 
 // DIA 1
 if (diaAtual === 1 && dezembro_1 === true && dezembro_2 === true) {
-    console.log("Parabens! conteúdo de números reais finalizado")
-} else if (diaAtual === 1 && dezembro_1 === false && dezembro_2 ===false) {
+    console.log("Parabéns! conteúdo de números reais finalizado")
+} else if (diaAtual === 1 && (dezembro_1 === false || dezembro_2 ===false)) {
     console.log("Estudos de números reais incompleto")
 }
 
 // DIA 3
 if (diaAtual === 3 && dezembro_3 === true && dezembro_4 === true) {
-    console.log("Parabens! conteúdos de radiciação e potenciação finalizado")
-} else if (diaAtual === 3 && dezembro_3 === false && dezembro_4 === false) {
+    console.log("Parabéns! conteúdos de radiciação e potenciação finalizado")
+} else if (diaAtual === 3 && (dezembro_3 === false || dezembro_4 === false)) {
     console.log("Estudos de radiciação e potenciação incompleto")
 }
 
 // DIA 5
 if (diaAtual === 5 && dezembro_5 === true && dezembro_6 === true) {
-    console.log("Parabens! conteúdos de álgebra finalizado")
-} else if (diaAtual === 5 && dezembro_5 === false && dezembro_6 === false) {
+    console.log("Parabéns! conteúdos de álgebra finalizado")
+} else if (diaAtual === 5 && (dezembro_5 === false || dezembro_6 === false)) {
     console.log("Estudos de álgebra incompleto")
 }
 
 // DIA 7
 if (diaAtual === 7 && dezembro_7 === true && dezembro_8 === true) {
-    console.log("Parabens! conteúdos de equações do segundo grau finalizado")
-} else if (diaAtual === 7 && dezembro_7 === false && dezembro_8 === false) {
+    console.log("Parabéns! conteúdos de equações do segundo grau finalizado")
+} else if (diaAtual === 7 && (dezembro_7 === false || dezembro_8 === false)) {
     console.log("Estudos de equações do segundo grau incompleto")
 }
 
 //DIA 9
 if (diaAtual === 9 && dezembro_9 === true && dezembro_10 === true) {
-    console.log("Parabens! conteúdos de funções finalizado")
-} else if (diaAtual === 9 && dezembro_9 === false && dezembro_10 === false) {
+    console.log("Parabéns! conteúdos de funções finalizado")
+} else if (diaAtual === 9 && (dezembro_9 === false || dezembro_10 === false)) {
     console.log("Estudos de funções incompleto")
 }
 
 // DIA 11
 if (diaAtual === 11 && dezembro_11 === true && dezembro_12 === true) {
-    console.log("Parabens! conteúdos de trigonometria finalizado")
-} else if (diaAtual === 11 && dezembro_11 === false && dezembro_12 === false) {
+    console.log("Parabéns! conteúdos de trigonometria finalizado")
+} else if (diaAtual === 11 && (dezembro_11 === false || dezembro_12 === false)) {
     console.log("Estudos de trigonometria incompleto")
 }
 
 // DIA 13
 if (diaAtual === 13 && dezembro_13 === true && dezembro_14 === true) {
-    console.log("Parabens! conteúdos de estatísticafinalizado")
-} else if (diaAtual === 13 && dezembro_13 === false && dezembro_14 === false) {
+    console.log("Parabéns! conteúdos de estatística finalizado")
+} else if (diaAtual === 13 && (dezembro_13 === false || dezembro_14 === false)) {
     console.log("Estudos de estatística incompleto")
 } 
 
 // DIA 15
 if (diaAtual === 15 && dezembro_15 === true) {
-    console.log("Parabens! conteúdo geral de geometrias finalizado")
+    console.log("Parabéns! conteúdo geral de geometrias finalizado")
 } else if (diaAtual === 15 && dezembro_15 === false) {
     console.log("Estudos de geometrias incompleto")
 }
@@ -217,3 +217,4 @@ const resumo=(`//===============================================================
  dezembro_15 = ${dezembro_15} 
  diaAtual = ${diaAtual}
  `)
+console.log(resumo)
