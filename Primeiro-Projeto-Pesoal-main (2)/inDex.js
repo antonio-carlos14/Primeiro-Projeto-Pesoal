@@ -17,7 +17,7 @@ let dezembro_15 = true
 
 // ================================================================================= //
 // DEFINA O DIA EM QUE VOCÊ DESEJA CONSULTAR
-let diaAtual = 1
+let diaAtual = 2
 // ================================================================================= //
 
 // CONDICIONAIS DE DEZEMBRO (Usando 'else if' e o operador '&&')
