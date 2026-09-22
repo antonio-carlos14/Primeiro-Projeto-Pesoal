@@ -1,5 +1,6 @@
   // Calendário de estudos mensal (9 ANO) //
- // ESTUDO VOLTADO Á PREPARAÇÃO PARA O ENSINO MÉDIO//
+ // ESTUDO VOLTADO Á PREPARAÇÃO PARA O ENSINO MÉDIO //
+// ÁREA DAS EXATAS //
 let dezembro_1 = true
 let dezembro_2 = true
 let dezembro_3 = true
@@ -20,8 +21,8 @@ let dezembro_15 = true
 // DEFINA O DIA EM QUE VOCÊ DESEJA CONSULTAR //
 let diaAtual = 15
 // ================================================================================= //
-
-// 1. EXIBIÇÃO DA TAREFA DO DIA SELECIONADO //
+// EXIBIÇÃO DA TAREFA DO DIA SELECIONADO 
+// AS CONDICIONAIS APRESENTARÃO A SITUAÇÃO DOS ESTUDOS,SE REALIZADOS OU NÃO
 
 // DIA 1
 if (diaAtual === 1 && dezembro_1 === true) {
@@ -131,52 +132,54 @@ if (diaAtual === 15 && dezembro_15 === true) {
 // ================================================================================= //
 // 2. CÁLCULO FINAL PROGRESSIVO DO DIA SELECIONADO (DO DIA 1 AO 15)
 // ================================================================================= //
+// AS CONDICIONAIS IRÃO MOSTRAR A CONCLUSÃO DOS ESTUDOS PERANTE DETERMINADAS ÁREAS
+// CONDICIONAIS AVALIAM SOMENTE NÚMEROS IMPARES,SENDO VÁLIDO PRIMORDIALMENTE O CONTEÚDO AO INVÉS DA REVISÃO
 
 // DIA 1
 if (diaAtual === 1 && dezembro_1 === true && dezembro_2 === true) {
     console.log("Parabéns! conteúdo de números reais finalizado")
-} else if (diaAtual === 1 && (dezembro_1 === false || dezembro_2 ===false)) {
+} else if (diaAtual === 1 && (dezembro_1 === false || dezembro_2 === false)) {
     console.log("Estudos de números reais incompleto")
 }
 
 // DIA 3
 if (diaAtual === 3 && dezembro_3 === true && dezembro_4 === true) {
-    console.log("Parabéns! conteúdos de radiciação e potenciação finalizado")
+    console.log("Parabéns! conteúdo de radiciação e potenciação finalizado")
 } else if (diaAtual === 3 && (dezembro_3 === false || dezembro_4 === false)) {
     console.log("Estudos de radiciação e potenciação incompleto")
 }
 
 // DIA 5
 if (diaAtual === 5 && dezembro_5 === true && dezembro_6 === true) {
-    console.log("Parabéns! conteúdos de álgebra finalizado")
+    console.log("Parabéns! conteúdo de álgebra finalizado")
 } else if (diaAtual === 5 && (dezembro_5 === false || dezembro_6 === false)) {
     console.log("Estudos de álgebra incompleto")
 }
 
 // DIA 7
 if (diaAtual === 7 && dezembro_7 === true && dezembro_8 === true) {
-    console.log("Parabéns! conteúdos de equações do segundo grau finalizado")
+    console.log("Parabéns! conteúdo de equações do segundo grau finalizado")
 } else if (diaAtual === 7 && (dezembro_7 === false || dezembro_8 === false)) {
     console.log("Estudos de equações do segundo grau incompleto")
 }
 
 //DIA 9
 if (diaAtual === 9 && dezembro_9 === true && dezembro_10 === true) {
-    console.log("Parabéns! conteúdos de funções finalizado")
+    console.log("Parabéns! conteúdo de funções finalizado")
 } else if (diaAtual === 9 && (dezembro_9 === false || dezembro_10 === false)) {
     console.log("Estudos de funções incompleto")
 }
 
 // DIA 11
 if (diaAtual === 11 && dezembro_11 === true && dezembro_12 === true) {
-    console.log("Parabéns! conteúdos de trigonometria finalizado")
+    console.log("Parabéns! conteúdo de trigonometria finalizado")
 } else if (diaAtual === 11 && (dezembro_11 === false || dezembro_12 === false)) {
     console.log("Estudos de trigonometria incompleto")
 }
 
 // DIA 13
 if (diaAtual === 13 && dezembro_13 === true && dezembro_14 === true) {
-    console.log("Parabéns! conteúdos de estatística finalizado")
+    console.log("Parabéns! conteúdo de estatística finalizado")
 } else if (diaAtual === 13 && (dezembro_13 === false || dezembro_14 === false)) {
     console.log("Estudos de estatística incompleto")
 } 
