@@ -193,8 +193,8 @@ if (diaAtual === 15 && dezembro_15 === true) {
 if ( dezembro_1 === true &&dezembro_2 === true &&dezembro_3 === true &&dezembro_4 === true &&dezembro_5 === true &&dezembro_6 === true && dezembro_7 === true && dezembro_8 === true && dezembro_9 === true &&
     dezembro_10 === true && dezembro_11 === true &&dezembro_12 === true &&dezembro_13 === true &&dezembro_14 === true && dezembro_15 === true) {
     console.log("Parabens! conteúdos de revisão do 9 ano concluídos com sucesso")
-} else if (diaAtual === 15) {
-    console.log("Estudos incompletos, mais atenção e responsabilidade no próximos afazeres escolares!")
+} else {
+    console.log("Estudos incompletos, mais atenção e responsabilidade nos próximos afazeres escolares!")
 }
 
 const resumo=(`//============================================================================ //
