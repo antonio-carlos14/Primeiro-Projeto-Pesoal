@@ -24,7 +24,7 @@ let diaAtual = 2
 
 if (diaAtual === 1 && dezembro_1 === true) {
     console.log("Matemática financeira, destina-se 4 horas")
-} else if (diaAtual === 1 && dezembro_1 === false) {
+} else if (diaAtual === 1 && dezembro_1 === true) {
     console.log("Atividade não realizada")
 } else if (diaAtual === 2 && dezembro_2 === true) {
     console.log("Aprofundamento sobre geometrias, destina-se 4 horas")
