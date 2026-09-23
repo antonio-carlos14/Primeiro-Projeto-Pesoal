@@ -199,25 +199,3 @@ if ( dezembro_1 === true &&dezembro_2 === true &&dezembro_3 === true &&dezembro_
 } else {
     console.log("Estudos incompletos, mais atenção e responsabilidade nos próximos afazeres escolares!")
 }
-
-const resumo=(`//============================================================================ //
-                         // RESUMO DO MÊS DE DEZEMBRO //
-//=========================================================================================== //
- dezembro_1 = ${dezembro_1} 
- dezembro_2 = ${dezembro_2} 
- dezembro_3 = ${dezembro_3} 
- dezembro_4 = ${dezembro_4} 
- dezembro_5 = ${dezembro_5} 
- dezembro_6 = ${dezembro_6} 
- dezembro_7 = ${dezembro_7} 
- dezembro_8 = ${dezembro_8} 
- dezembro_9 = ${dezembro_9} 
- dezembro_10 = ${dezembro_10} 
- dezembro_11 = ${dezembro_11} 
- dezembro_12 = ${dezembro_12} 
- dezembro_13 = ${dezembro_13} 
- dezembro_14 = ${dezembro_14} 
- dezembro_15 = ${dezembro_15} 
- diaAtual = ${diaAtual}
- `)
-console.log(resumo)
