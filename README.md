@@ -1,2 +1,1 @@
-# P.pessoal-01
-## calendário de estudos
+## calendário de estudos, àrea de exatas
